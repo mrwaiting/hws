@@ -61,16 +61,16 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #e45777;
+	color: #ffed93;
 }
 .text-colored {
-	color: #e45777 ;
+	color: #ffed93 ;
 }
 a {
-	color: #e45777 ;
+	color: #ffed93 ;
 }
 a:hover {
-	color: #e45777;
+	color: #ffed93;
 }
 a:focus,
 a:active {
@@ -159,7 +159,7 @@ blockquote {
 }
 .section {
 	background-color: #ffffff;
-	padding: 80px 0;
+	padding: 40px 0;
 }
 
 /* Backgrounds
@@ -169,7 +169,7 @@ blockquote {
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #e45777;
+	background-color: #ffed93;
 }
 .translucent-bg {
 	color: #ffffff;
@@ -226,7 +226,7 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .translucent-bg.blue:after {
-	background-color: rgba(228, 87, 119, 0.88);
+	background-color: rgba(128, 130, 133, 0.88);
 }
 .translucent-bg .container {
 	z-index: 3;
@@ -298,12 +298,14 @@ blockquote {
 ---------------------------------- */
 .btn {
 	padding: 8px 15px;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1.42857143;
 	min-width: 160px;
 	text-align: center;
 	border-radius: 0;
-	text-transform: uppercase;
+    text-overflow: ellipsis;
+    overflow: hidden;
+/*	text-transform: uppercase;*/
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
@@ -311,13 +313,13 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .btn-default {
-	color: #55acee;
-	border: 1px solid #cccccc;
+	color: #808285   ;
+	border: 1px solid #ccc ;
 }
 .btn-default:hover {
-	color: #ffffff;
-	background-color: #e45777;
-	border-color: #e45777;
+	color: #fff;
+	background-color: #808285 ;
+	border-color: #808285 ;
 }
 
 /* Collapse
@@ -348,14 +350,14 @@ blockquote {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #EE9E53;
+	background-color: #808285;
 	color: #ffffff;
 	position: relative;
 	text-decoration: none;
 }
 .panel-heading a.collapsed {
-	color: #ffffff;
-	background-color: #E45777;
+	color: #808285;
+	background-color: #ffed93;
 }
 .panel-heading a:after {
 	font-family: "FontAwesome";
@@ -373,8 +375,8 @@ blockquote {
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #E45777;
-	color: #ffffff;
+	background-color: #ffed93;
+	color: #000;
 }
 .panel-title a i {
 	padding-right: 10px;
@@ -387,8 +389,8 @@ blockquote {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #e45777 ;
-	border-color: #e45777 ;
+	background-color: #808285  ;
+	border-color: #808285  ;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -398,7 +400,7 @@ blockquote {
 	color: #666666;
 	font-size: 12px;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 /* Forms
@@ -427,7 +429,7 @@ textarea {
 	border-radius: 0px;
 }
 .modal-header {
-	background-color: #55acee;
+	background-color: #808285 ;
 	color: #ffffff;
 }
 .modal-header h4 {
@@ -472,15 +474,15 @@ textarea {
 	color: #fff;
 	padding: 10px 20px;
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 400;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #e45777 ;
+	color: #ffed93 ;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #e45777 ;
+	color: #ffed93 ;
 }
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -673,7 +675,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(228, 87, 119, 0.8);
+	background-color: rgba(255, 237, 147, 0.5);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
@@ -695,7 +697,7 @@ textarea {
 	bottom: 10px;
 	text-align: center;
 	width: 100%;
-	color: #ffffff;
+	color: #333;
 	font-size: 13px;
 	font-weight: 300;
 }
@@ -715,4 +717,12 @@ textarea {
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+.text-gray{
+    color:#808285 !important;
+}
+
+.overlay-container img{
+    width: 100%;
 }
