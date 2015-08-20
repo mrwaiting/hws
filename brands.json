@@ -1,0 +1,15 @@
+{"brands":[
+  {
+    "brandId": "BabyMemoryPrints",
+    "brandName" : "Baby Memory Prints",
+    "products": [{
+        "productId" : "0",
+        "productName" : "Table Frame - Mahogany",
+        "productDescription": "Dimensions: 38.5cm x 3.7cm x 23.7cm;Clear and brown background board;High quality wooden box frame with glass facing;Non-toxic, air drying print material"
+        }, {
+        "productId" : "1",
+        "productName" : "Table Frame - White",
+        "productDescription": "Dimensions: 38.5cm x 3.7cm x 23.7cm;Clear and brown background board;High quality wooden box frame with glass facing;Non-toxic, air drying print material"
+    }] 
+  },
+]}
