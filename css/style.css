@@ -394,13 +394,14 @@ blockquote {
 	color: #ffffff;
 }
 .nav-pills > li > a {
-	border-radius: 0;
-	padding: 8px 20px;
 	border: 1px solid #cacaca;
-	color: #666666;
-	font-size: 12px;
-	text-transform: uppercase;
-	font-weight: 400;
+    border-radius: 0;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px 10px;
+    padding: 15px 30px;
+    text-transform: uppercase;
 }
 
 /* Forms
@@ -729,4 +730,19 @@ textarea {
 
 .img-rounded{
     padding: 5px;
+}
+
+.logo-container a{
+/*    float: left;*/
+}
+
+.logo-container a img{
+    width: 80px;
+    margin: 5px 15px;
+    border: 1px solid #f5f5f5;
+    display: inline;
+}
+
+.text-thin{
+    font-weight: 300;
 }
