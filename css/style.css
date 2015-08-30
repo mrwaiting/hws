@@ -746,3 +746,45 @@ textarea {
 .text-thin{
     font-weight: 300;
 }
+
+/* tipue search */
+#tipue_search_input{
+    width: 100% !important;
+     background-color: rgba(0, 0, 0, 0.5) !important;
+    border: none !important;
+    color:#fff !important;
+    font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+  color: #f5f5f5;
+    font-size: 14px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #f5f5f5;
+    font-size: 14px;
+}
+:-ms-input-placeholder {
+  color: #f5f5f5;
+    font-size: 14px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #f5f5f5;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #ddd !important;
+}
+
+
+@media (min-width : 320px) and (max-width: 640px) {
+    .text-greeting{
+        font-size: 24px !important;
+    }
+    
+    .nav-pills > li > a{
+        padding: 5px ;
+        font-size: 13px;
+    }
+}

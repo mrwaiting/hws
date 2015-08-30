@@ -129,26 +129,16 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 id="about" class="title text-center text-thin">About <span class="text-gray text-thin">Hello World Star</span></h1>
-						<p class="lead text-center">Hello World Star is an exclusive distributor of premium baby and maternity products in Indonesia.</p>
-						<div class="space"></div>
-						<div class="row">
-							<div class="col-md-6">
-								<img src="images/apple-touch-icon.png" alt="">
-								<div class="space"></div>
-							</div>
-							<div class="col-md-6">
-								<p>We are specialized in distributing premium quality products that are stylish, innovative, and eco-friendly in the best interest of modern parenting lifestyle. We supply nursery and infant retailers, online stores and independent shops.</p>
-								<p>We hope you enjoy our range and if you are an innovative retailer or online stores or corporation looking for premium baby, kids and maternity International brands, please contact us at <a class="text-gray" style="border-bottom: 3px solid #ffed93" href="mailto:info@helloworldstar.com">info@helloworldstar.com</a></p>
-							</div>
-						</div>
-						<div class="space"></div>
+						<form action="search.html">
+                        <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+                        </form>
+                        <div id="tipue_search_content"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- section end -->
-
+        
 		
 		<!-- footer start -->
 		<!-- ================ -->
@@ -195,6 +185,17 @@
 
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
+        
+        <script src="tipuesearch/tipuesearch_content.js"></script>
+        <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+        <script src="tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch/tipuesearch.min.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+        </script>
 
 	</body>
 </html>

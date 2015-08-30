@@ -30,6 +30,8 @@
 
 		<!-- Custom css --> 
 		<link href="css/custom.css" rel="stylesheet">
+        
+        <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
 	</head>
 
 	<body class="no-trans">
@@ -42,11 +44,11 @@
 		<header class="header fixed clearfix navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-5 col-sm-6">
 
 						<!-- header-left start -->
 						<!-- ================ -->
-						<div class="header-left clearfix">
+						<div class="header-left clearfix hidden-xs">
 
 							<!-- logo -->
 							<div class="logo smooth-scroll">
@@ -60,10 +62,19 @@
 							</div>
 
 						</div>
+                        
+                        <div class="header-left clearfix smooth-scroll visible-xs">
+
+							<!-- logo -->
+							<div class="">
+								<center><a href="index.html"><img width="60" id="logo" src="images/logo.png" alt="Hello World Star"></a></center>
+							</div>
+
+						</div>
 						<!-- header-left end -->
 
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-7 col-sm-6">
 
 						<!-- header-right start -->
 						<!-- ================ -->
@@ -120,9 +131,13 @@
 			<div class="banner-caption">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-							<h1 class="text-center text-thin">We are <span class="text-thin">Hello World Star</span></h1>
+						<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<h1 class="text-center text-thin text-greeting">We are <span class="text-thin">Hello World Star</span></h1>
 							<p class="lead text-center">Welcome to our fresh new site. Here you are able to search very selected brands and high quality products about baby needs</p>
+                            
+                            <form action="search.html">
+                                <input type="text" name="q" id="tipue_search_input" autocomplete="off" required placeholder="Search here">
+                            </form>
 						</div>
 					</div>
 				</div>
@@ -132,48 +147,12 @@
 		
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="space">
+		<div class="space hidden-xs">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="text-center text-thin">Feature Product</h1>
-<!--
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#">
-                                <img class="img-rounded" width="100%" src="images/babyPrints_feature.jpg">
-                            </a>
-                        </div>
-                        
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#">
-                                <img class="img-rounded" width="100%" src="images/bellybud_feature.jpg">
-                            </a>
-                        </div>
-                        
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#">
-                                <img class="img-rounded" width="100%" src="images/chubby_bear_feature.jpg">
-                            </a>
-                        </div>
-                        
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#">
-                                <img class="img-rounded" width="100%" src="images/comfi_feature.jpg">
-                            </a>
-                        </div>
-                        
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#">
-                                <img class="img-rounded" width="100%" src="images/ergopouch_feature.jpg">
-                            </a>
-                        </div>
-                        
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#">
-                                <img class="img-rounded" width="100%" src="images/janod_feature.jpg">
-                            </a>
-                        </div>
--->
+
                         <div class="col-xs-6">
                             <div class="media">
                               <div class="media-left">
